@@ -1,0 +1,7 @@
+title New Note SPA
+
+User->Browser: Type note to the input field
+User->Browser: User hit submit button
+Browser->Server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note over Server: Save the note
+note over Browser: Push new note to the current notes displayed on browser
